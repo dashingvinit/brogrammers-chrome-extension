@@ -1,0 +1,46 @@
+body {
+  width: 300px;
+  padding: 10px;
+  background: linear-gradient(360deg, #224e4d 10%, #083023 360%);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.brand a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.brand-icon {
+  width: 30px; /* Adjust the size as needed */
+  margin-right: 10px;
+}
+
+.brand-title {
+  margin: 0;
+  text-align: center;
+}
+
+.notification-list {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.notification {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+#showMoreBtn {
+  display: none;
+  margin-top: 10px;
+}
